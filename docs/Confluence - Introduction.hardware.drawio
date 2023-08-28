@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-08-28T10:11:40.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="tv8jjf9SCMtPyBUqEmxK" version="21.6.8" type="device">
+  <diagram name="Page-1" id="cGfjRykZkKh38sR1ZzCr">
+    <mxGraphModel dx="1098" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-1" value="DWD" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="61" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-2" value="RPI" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" parent="1" vertex="1">
+          <mxGeometry x="310" y="60" width="42.599999999999994" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-3" value="" style="endArrow=classic;startArrow=block;html=1;rounded=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.047;entryY=0.778;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;startFill=0;" parent="1" source="-ESMWCXfh3IhH4_OdFDs-1" target="-ESMWCXfh3IhH4_OdFDs-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-4" value="REST API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-ESMWCXfh3IhH4_OdFDs-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1338" relative="1" as="geometry">
+            <mxPoint x="10" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-5" value="ARB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.hardware_board;" parent="1" vertex="1">
+          <mxGeometry x="481" y="49" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="-ESMWCXfh3IhH4_OdFDs-2" target="-ESMWCXfh3IhH4_OdFDs-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="86.6" as="sourcePoint" />
+            <mxPoint x="460" y="86.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-12" value="Hardware wired link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelPosition=center;verticalLabelPosition=middle;" parent="-ESMWCXfh3IhH4_OdFDs-10" vertex="1" connectable="0">
+          <mxGeometry x="0.1279" y="5" relative="1" as="geometry">
+            <mxPoint x="-25" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-13" value="LED" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.lightbulb;" parent="1" vertex="1">
+          <mxGeometry x="720" y="65" width="22.8" height="29.7" as="geometry" />
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.885;exitY=0.522;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.544;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-ESMWCXfh3IhH4_OdFDs-5" target="-ESMWCXfh3IhH4_OdFDs-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="88.7" as="sourcePoint" />
+            <mxPoint x="687" y="89.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-15" value="Hardware wired link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelPosition=center;verticalLabelPosition=middle;" parent="-ESMWCXfh3IhH4_OdFDs-14" vertex="1" connectable="0">
+          <mxGeometry x="0.1279" y="5" relative="1" as="geometry">
+            <mxPoint x="-25" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ESMWCXfh3IhH4_OdFDs-16" value="DA.SmartMedCab" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
