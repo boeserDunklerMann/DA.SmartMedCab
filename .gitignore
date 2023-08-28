@@ -300,3 +300,6 @@ paket-files/
 *.cache
 /Wpf/bins/DA.lib.MVVM.Framework.dll
 Testing Apps/
+
+# Draw.IO backup files
+.$*
