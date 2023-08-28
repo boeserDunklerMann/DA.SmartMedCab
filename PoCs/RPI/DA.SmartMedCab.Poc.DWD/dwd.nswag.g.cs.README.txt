@@ -1,0 +1,6 @@
+﻿in YAML file
+- remove info-block lines 2-12
+
+in project file
+- add dewpendency:
+	- Newtonsoft.JSON
