@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA.SmartMedCab.Poc.DWD", "DA.SmartMedCab.Poc.DWD\DA.SmartMedCab.Poc.DWD.csproj", "{43D8B215-787A-46C0-81C1-2DE876C1D303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DA.SmartMedCab.Poc.DWD", "DA.SmartMedCab.Poc.DWD\DA.SmartMedCab.Poc.DWD.csproj", "{43D8B215-787A-46C0-81C1-2DE876C1D303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA.SmartMedCab.Poc.EFCore", "DA.SmartMedCab.Poc.EFCore\DA.SmartMedCab.Poc.EFCore.csproj", "{F28FD568-7537-47E6-8856-47F91270DD7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{43D8B215-787A-46C0-81C1-2DE876C1D303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D8B215-787A-46C0-81C1-2DE876C1D303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D8B215-787A-46C0-81C1-2DE876C1D303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28FD568-7537-47E6-8856-47F91270DD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28FD568-7537-47E6-8856-47F91270DD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28FD568-7537-47E6-8856-47F91270DD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28FD568-7537-47E6-8856-47F91270DD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

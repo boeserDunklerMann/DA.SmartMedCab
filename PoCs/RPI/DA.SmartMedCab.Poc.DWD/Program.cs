@@ -27,7 +27,9 @@ namespace DA.SmartMedCab.Poc.DWD
 			string json = await response.Content.ReadAsStringAsync();
 			Console.WriteLine(json);
 			var x = Newtonsoft.Json.JsonConvert.DeserializeObject<RESTForecast>(json);
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
 			long sset = x.days[0].sunset;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
 		}
 
 		private static DateTime UnixTimeStampToDateTime(double unixTimeStamp)
