@@ -14,7 +14,7 @@ namespace DA.SmartMedCab.Poc.EFCore
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			string connString = "server=localhost;database=DA_SmartMedCab;user=smc_user;password=smc;";
+			string connString = "server=192.168.2.108;database=DA_SmartMedCab;user=smc_user;password=smc;";
 			optionsBuilder.UseMySql(connString, ServerVersion.AutoDetect(connString));
 		}
 
