@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div id="my-map" style="width: 800px;height: 600px;"/>
+    <script>
+        // create map options
+        var mapOptions = {center:[17.3, 78.4],
+            zoom: 10
+        }
+        
+        // create map object
+        var map = new L.map('my-map', mapOptions);
+
+        // create Layer object
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+        // add layer to map
+        map.addLayer(layer);
+    </script>
+</div>
